@@ -1,0 +1,57 @@
+/* Basic styles for the Physics for Teens website */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5rem 0;
+    text-align: center; /* Center the list items for a simple horizontal bar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Make list items appear in a line */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* Give main content a distinct background */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px; /* Add some space above the footer */
+}
